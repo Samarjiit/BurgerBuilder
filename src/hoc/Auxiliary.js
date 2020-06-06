@@ -1,0 +1,2 @@
+const aux =(props)=>props.children;  //it's named higher order component because all it does essentially is it wrapsanother component,it does not contain its own logic, its own styling or add any structure to theJSX code or to the real DOM that will be rendered,it just wraps another component and then maybe adds some extra logic to it, though the aux componenthere doesn't even add any logic,it's just a technical wrapper
+export default aux;
